@@ -10003,10 +10003,32 @@ h3 {
   }
 }
 body {
-    background-color:white;
+    background-color: white;
 }
 
-.main-header {  
+.main-header {
     background-color: rgb(157, 243, 157);
+}
+
+.intro {
+    padding: 15px;
+}
+.intro-title {
+    text-align: center;
+}
+
+.ventajas-title {
+    background: rgb(135, 232, 130);
+    background: linear-gradient(
+        125deg,
+        rgba(135, 232, 130, 1) 0%,
+        rgba(30, 112, 5, 1) 35%
+    );
+}
+
+.ventajas-title p {
+    text-align: left;
+    font-size: 40px;
+    color: white;
 }
 

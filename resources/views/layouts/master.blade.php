@@ -30,7 +30,6 @@
 
 <body>
 
-
         <!-- Main header start -->
         @include('sections.mainheader')
         <!-- Main header end -->
@@ -39,7 +38,7 @@
         @yield('content')
 
     <!-- Scripts -->
-    <script src="{{ asset('/js/app.js') }}" defer></script>
+    <script src="{{ asset('js/app.js') }}" defer></script>
 
 </body>
 

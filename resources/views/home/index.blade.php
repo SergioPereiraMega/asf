@@ -4,6 +4,6 @@
 
 @section('content')
 
-
+@include('sections.intro')
 
 @endsection
