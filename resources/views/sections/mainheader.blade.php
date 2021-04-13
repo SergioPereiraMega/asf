@@ -1,9 +1,9 @@
 <!-- Main header start -->
 <header class="main-header">
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <a class="navbar-brand logo" href="/">
-                <img class="logo-img" src="{{ asset('/img/favicon-32x32.png') }}" width="35" height="35" class="d-inline-block align-top" alt="logo" >
+                <img class="logo-img" src="{{ asset('/img/favicon-32x32.png') }}" width="35" height="35" class="d-inline-block align-top" alt="logo">
                 ASF Agronegocios San Francisco
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@
                             Quienes somos
                         </a>
                     </li>
-                    <li class="nav-item dropdown megamenu-li">
+                    <!-- <li class="nav-item dropdown megamenu-li">
                         <a class="nav-link" href="/emprendimientos" id="dropdown01" aria-haspopup="true" aria-expanded="false">
                             Nuestras Ofertas</a>
                     </li>
@@ -35,7 +35,7 @@
                         <a class="nav-link" href="/invertir" id="navbarDropdownMenuLink7">
                             Hacer Negocios
                         </a>
-                    </li>
+                    </li> -->
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="/contacto">
                             Contacto
