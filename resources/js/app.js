@@ -34,3 +34,16 @@ $("#carousel-example").on("slide.bs.carousel", function (e) {
 $(".carousel").carousel({
     interval: 2000,
 });
+
+var map = new ol.Map({
+    target: "map",
+    layers: [
+        new ol.layer.Tile({
+            source: new ol.source.OSM(),
+        }),
+    ],
+    view: new ol.View({
+        center: ol.proj.fromLonLat([-56.052777, -34.888948]),
+        zoom: 16,
+    }),
+});

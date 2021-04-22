@@ -18,7 +18,7 @@
                         </a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="/propiedades" id="navbarDropdownMenuLink2">
+                        <a class="nav-link" href="/nosotros" id="navbarDropdownMenuLink2">
                             Quienes somos
                         </a>
                     </li>

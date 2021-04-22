@@ -1,10 +1,10 @@
 @extends('layouts.master')
 
-@section('title', 'ASF Agronegocios San Francisco')
+@section('title', 'Quienes Somos')
 
 @section('content')
 
-@include('sections.intro')
+@include('sections.quienes_somos')
 
 @include('sections.clients_gallery')
 

@@ -10,4 +10,9 @@ class PageController extends Controller
     {
         return view('home.index');
     }
+
+    public function nosotros()
+    {
+        return view('home.about');
+    }
 }

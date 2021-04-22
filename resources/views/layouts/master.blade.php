@@ -8,6 +8,11 @@
     <!-- Styles -->
     <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
 
+    <link rel="stylesheet" href="{{ asset('font-awesome/css/font-awesome.min.css') }}">
+
+    <!-- Openlayers Maps CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
+
     <!-- Favicon Agronegocios San Francisco -->
     <link rel="shortcut icon" type="image/png" href="{{ asset('img/favicon-32x32.png') }}">
     <link rel="shortcut icon" sizes="192x192" href="{{ asset('img/favicon-32x32.png') }}">
@@ -20,22 +25,26 @@
 
     <title>@yield('title')</title>
 
-    
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-
-
+    <!-- Openlayers Maps JS-->
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
 </head>
 
 <body>
 
-        <!-- Main header start -->
-        @include('sections.mainheader')
-        <!-- Main header end -->
+    <!-- Main header start -->
+    @include('sections.mainheader')
+    <!-- Main header end -->
 
 
-        @yield('content')
+    @yield('content')
+
+    <!-- Footer start -->
+    @include('sections.footer')
+    <!-- Footer end -->
+
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>

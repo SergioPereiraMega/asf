@@ -138,6 +138,10 @@ span {
     font-weight: 300;
 }
 
+.clients h2 {
+    font-size: xxx-large;
+}
+
 .carousel-item {
     height: 150px;
     background-color: inherit;
@@ -320,7 +324,38 @@ span {
 }
 
 .carousel-control-prev {
-    color: rgb(118, 163, 61);
+    /* color: rgb(118, 163, 61); */
+    margin-bottom: 80%;
+}
+
+.carousel-control-next {
+    /* color: rgb(118, 163, 61); */
+    margin-bottom: 80%;
 }
 
 /* Fin Codigo para poner mas fotos en carousel */
+
+.footer {
+    color: rgb(68, 62, 156);
+    margin-top: 50px;
+}
+
+.footer ol,
+ul,
+dl {
+    padding: 20px;
+}
+
+.footer .flex-item {
+    justify-content: space-around;
+}
+
+.map {
+    height: 200px;
+    width: 100%;
+}
+
+.about {
+    color: rgb(68, 62, 156);
+    margin-top: 160px;
+}

@@ -1,4 +1,4 @@
-const mix = require('laravel-mix');
+const mix = require("laravel-mix");
 
 /*
  |--------------------------------------------------------------------------
@@ -11,12 +11,19 @@ const mix = require('laravel-mix');
  |
  */
 
- mix.js('resources/js/app.js', 'public/js')
- .sass('resources/sass/app.scss', 'public/css')
- .css('resources/css/app.css', 'public/css')
- .sourceMaps()
- .browserSync({
-     open: false,
-     proxy: 'localhost:8000',
-     files: ['resources/views/**/*.php', 'resources/views/**/**/*.php', 'app/**/*.php', 'routes/**/*.php', 'public/js/*.js', 'public/css/*.css']
-   });
+mix.js("resources/js/app.js", "public/js")
+    .sass("resources/sass/app.scss", "public/css")
+    .css("resources/css/app.css", "public/css")
+    .sourceMaps()
+    .browserSync({
+        open: false,
+        proxy: "localhost:8000",
+        files: [
+            "resources/views/**/*.php",
+            "resources/views/**/**/*.php",
+            "app/**/*.php",
+            "routes/**/*.php",
+            "public/js/*.js",
+            "public/css/*.css",
+        ],
+    });
