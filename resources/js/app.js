@@ -35,7 +35,14 @@ $(".carousel").carousel({
     interval: 2000,
 });
 
+// Open Layer Map
+
+var attribution = new ol.control.Attribution({
+    collapsible: false,
+});
+
 var map = new ol.Map({
+    controls: ol.control.defaults({ attribution: false }).extend([attribution]),
     target: "map",
     layers: [
         new ol.layer.Tile({
@@ -47,3 +54,53 @@ var map = new ol.Map({
         zoom: 16,
     }),
 });
+
+var layer = new ol.layer.Vector({
+    source: new ol.source.Vector({
+        features: [
+            new ol.Feature({
+                geometry: new ol.geom.Point(
+                    ol.proj.fromLonLat([-56.052777, -34.888948])
+                ),
+            }),
+        ],
+    }),
+});
+
+map.addLayer(layer);
+
+// Se agrega el pop up en el waypoint openmaps
+
+var container = document.getElementById("popup");
+var content = document.getElementById("popup-content");
+var closer = document.getElementById("popup-closer");
+
+var overlay = new ol.Overlay({
+    element: container,
+    autoPan: true,
+    autoPanAnimation: {
+        duration: 250,
+    },
+});
+map.addOverlay(overlay);
+
+closer.onclick = function () {
+    overlay.setPosition(undefined);
+    closer.blur();
+    return false;
+};
+
+// map.on("singleclick", function (event) {
+//     if (map.hasFeatureAtPixel(event.pixel) === true) {
+//         var coordinate = event.coordinate;
+
+//         content.innerHTML = "<b>Agronegocios San Francisco</b><br/>";
+//         overlay.setPosition(coordinate);
+//     } else {
+//         overlay.setPosition(undefined);
+//         closer.blur();
+//     }
+// });
+
+content.innerHTML = "<b>Agronegocios San Francisco</b><br/>";
+overlay.setPosition(ol.proj.fromLonLat([-56.052777, -34.888948]));

@@ -1,5 +1,5 @@
 <!-- Footer start -->
-<footer class="container-fluid footer">
+<footer class="container footer">
     <div class="row">
         <div class="col-sm-3">
             <div class="footer-item">
@@ -10,10 +10,10 @@
                         <a href="/">Inicio</a>
                     </li>
                     <li>
-                        <a href="/">Quienes somos</a>
+                        <a href="/nosotros">Quienes somos</a>
                     </li>
                     <li>
-                        <a href="/">Contactos</a>
+                        <a href="/contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -24,12 +24,30 @@
             <div class="footer-item">
                 <h4>Donde encontrarnos</h4>
 
-                <ul class="contact-info">
+                <div class="row">
+
+                    <div class="col-sm-12">
+                        <i class="fa fa-location-arrow" aria-hidden="true" style="padding-right: 15px"></i>Daniel Otero
+                        6591 - Montevideo
+                    </div>
+
+                    <div class="col-sm-12">
+                        <a class="fa fa-envelope-o" aria-hidden="true"></a><i>info@asfgranos.com.uy</i>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <a class="fa fa-phone" aria-hidden="true" href="tel:+59899758229"><i> +598 99758229</i></a>
+                    </div>
+
+
+                </div>
+
+                <!-- <ul class="contact-info">
                     <li>
                         <i class="fa fa-address-book" aria-hidden="true"></i>Dirección: Daniel Otero 6591 - Montevideo
                     </li>
                     <li>
-                        Email: <a href="mailto:jpamonte@asfgranos.com.uy ">jpamonte@asfgranos.com.uy </a>
+                        <i class="fa fa-address-book" aria-hidden="true"></i>Dirección: Daniel Otero 6591 - Montevideo
                     </li>
                     <li>
                         Teléfono:
@@ -37,7 +55,7 @@
                             +598 99758229
                         </a>
                     </li>
-                </ul>
+                </ul> -->
 
             </div>
         </div>
@@ -45,6 +63,12 @@
             <div class="footer-item">
                 <h4>Como llegar</h4>
                 <div id="map" class="map"></div>
+
+                <div id="popup" class="ol-popup">
+                    <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                    <div id="popup-content"></div>
+                </div>
+
             </div>
         </div>
 

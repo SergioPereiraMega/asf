@@ -21,6 +21,9 @@ Route::get('/', [App\Http\Controllers\PageController::class, 'index']);
 
 Route::get('/nosotros', [App\Http\Controllers\PageController::class, 'nosotros']);
 
+Route::get('/contacto', [App\Http\Controllers\ContactUsFormController::class, 'createForm']);
+
+Route::post('/contacto', [App\Http\Controllers\ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');;
 
 Auth::routes();
 

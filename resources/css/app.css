@@ -48,10 +48,10 @@ body {
 }
 
 .intro .text {
-    min-height: 200px;
+    min-height: 150px;
     background-color: rgb(255, 255, 255, 0.5);
     position: relative;
-    margin: 10% 15% 10% 15%;
+    margin: 17% 15% 10% 15%;
     border-radius: 30px;
 }
 .intro-title {
@@ -65,7 +65,9 @@ body {
 
 .intro-description {
     text-align: justify;
-    font-size: 30px;
+    /* font-size: 30px; */
+    font-size: 20px;
+
     font-weight: 300;
 }
 
@@ -81,7 +83,7 @@ body {
 
 .ventajas-title p {
     text-align: left;
-    font-size: 50px;
+    font-size: 45px;
     color: white;
     font-weight: 600;
     padding-left: 5%;
@@ -89,7 +91,7 @@ body {
 
 .ventajas-description {
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
     color: rgb(68, 62, 156);
     padding: 5% 2% 2% 2%;
@@ -143,7 +145,7 @@ span {
 }
 
 .carousel-item {
-    height: 150px;
+    /* height: 150px; */
     background-color: inherit;
     border: 0;
 }
@@ -151,6 +153,19 @@ span {
 .carousel-item img {
     height: 100px;
     margin: 20px;
+}
+
+@media (max-width: 576px) {
+    /* Show 4th slide on md if col-md-4*/
+    .carousel-item {
+        height: 100px;
+        /* margin: 20px; */
+    }
+
+    .carousel-item img {
+        height: 80px;
+        /* margin: 20px; */
+    }
 }
 
 /* Codigo para poner mas fotos en carousel */
@@ -325,37 +340,66 @@ span {
 
 .carousel-control-prev {
     /* color: rgb(118, 163, 61); */
-    margin-bottom: 80%;
+    /* margin-bottom: 80%; */
+    width: 3%;
+    opacity: 0.8;
 }
 
 .carousel-control-next {
     /* color: rgb(118, 163, 61); */
-    margin-bottom: 80%;
+    /* margin-bottom: 80%; */
+    width: 3%;
+    opacity: 0.8;
 }
 
 /* Fin Codigo para poner mas fotos en carousel */
 
 .footer {
-    color: rgb(68, 62, 156);
+    color: green;
+    /* color: rgb(68, 62, 156); */
     margin-top: 50px;
 }
-
-.footer ol,
-ul,
-dl {
-    padding: 20px;
+.footer a {
+    color: green;
 }
 
 .footer .flex-item {
     justify-content: space-around;
 }
 
+.footer-item a {
+    padding-right: 15px;
+}
+
 .map {
-    height: 200px;
+    height: 150px;
     width: 100%;
 }
 
 .about {
     color: rgb(68, 62, 156);
     margin-top: 160px;
+}
+
+.contact {
+    margin-top: 100px;
+    padding-top: 30px;
+}
+
+@media (min-width: 1200px) {
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 1600px;
+    }
+}
+
+.contact span {
+    padding-right: 15px;
+}
+
+.form-group {
+    margin-bottom: 0rem;
 }

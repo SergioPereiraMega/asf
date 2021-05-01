@@ -3,9 +3,8 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
             <a class="navbar-brand logo" href="/">
-                <img class="logo-img" src="{{ asset('/img/favicon-32x32.png') }}" width="35" height="35" class="d-inline-block align-top" alt="logo">
-                ASF Agronegocios San Francisco
-            </a>
+                <img class="logo-img" src="{{ asset('/img/logo_blanco.jpg') }}" width=55" height="35" class="d-inline-block align-top" alt="logo">
+                ASF</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
