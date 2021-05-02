@@ -105,7 +105,7 @@ span {
     padding: 0;
 }
 .campos img {
-    height: 300px;
+    height: 250px;
     width: 100%;
     object-fit: cover;
 }
@@ -155,7 +155,7 @@ span {
     margin: 20px;
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) and (max-width: 768px) {
     /* Show 4th slide on md if col-md-4*/
     .carousel-item {
         height: 100px;
@@ -166,6 +166,11 @@ span {
         height: 80px;
         /* margin: 20px; */
     }
+    .campos img {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+    }
 }
 
 /* Codigo para poner mas fotos en carousel */
@@ -175,6 +180,13 @@ span {
     code customized by Azmind.com
 */
 @media (min-width: 768px) and (max-width: 991px) {
+    /* Slider de Campos Show 4th slide on md if col-md-4*/
+    .campos img {
+        height: 150px;
+        width: 100%;
+        object-fit: cover;
+    }
+
     /* Show 4th slide on md if col-md-4*/
     .carousel-inner
         .active.col-md-4.carousel-item
@@ -190,6 +202,12 @@ span {
     }
 }
 @media (min-width: 576px) and (max-width: 768px) {
+    .campos img {
+        height: 120px;
+        width: 100%;
+        object-fit: cover;
+    }
+
     /* Show 3rd slide on sm if col-sm-6*/
     .carousel-inner
         .active.col-sm-6.carousel-item
@@ -402,4 +420,12 @@ span {
 
 .form-group {
     margin-bottom: 0rem;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.contact a {
+    color: green;
 }

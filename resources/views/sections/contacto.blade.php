@@ -64,7 +64,7 @@
                     @endif
                 </div>
 
-                <input type="submit" name="send" value="Enviar" class="btn btn-primary btn-lg">
+                <input type="submit" name="send" value="Enviar" class="btn btn-primary btn-lg mt-12">
             </form>
         </div>
 
