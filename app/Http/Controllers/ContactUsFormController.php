@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Contact;
 
+
 class ContactUsFormController extends Controller
 {
     // Create Contact Form
@@ -21,7 +22,7 @@ class ContactUsFormController extends Controller
         $this->validate($request, [
             'name' => 'required',
             'email' => 'required|email',
-            'phone' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:10',
+            'phone' => 'required|regex:/^([0-9\s\-\+\(\)]*)$/|min:09',
             'subject' => 'required',
             'message' => 'required'
         ]);

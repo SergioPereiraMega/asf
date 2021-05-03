@@ -15,7 +15,7 @@
 
                 <div class="form-group">
                     <label>Nombre</label>
-                    <input type="text" class="form-control {{ $errors->has('name') ? 'error' : '' }}" name="name" id="name" placeholder="Ingrese su Nombre....">
+                    <input type="text" class="form-control {{ $errors->has('name') ? 'error' : '' }}" name="name" id="name" placeholder="Ingrese su Nombre...." required>
                     <!-- Error -->
                     @if ($errors->has('name'))
                     <div class="error">
@@ -26,7 +26,7 @@
 
                 <div class="form-group">
                     <label>Email</label>
-                    <input type="email" class="form-control {{ $errors->has('email') ? 'error' : '' }}" name="email" id="email" placeholder="Email....">
+                    <input type="email" class="form-control {{ $errors->has('email') ? 'error' : '' }}" name="email" id="email" placeholder="Email...." required>
                     @if ($errors->has('email'))
                     <div class="error">
                         {{ $errors->first('email') }}
@@ -36,7 +36,7 @@
 
                 <div class="form-group">
                     <label>Phone</label>
-                    <input type="text" class="form-control {{ $errors->has('phone') ? 'error' : '' }}" name="phone" id="phone" placeholder="Ingrese su Telefono....">
+                    <input type="text" class="form-control {{ $errors->has('phone') ? 'error' : '' }}" name="phone" id="phone" placeholder="Ingrese su Telefono...." required>
                     @if ($errors->has('phone'))
                     <div class="error">
                         {{ $errors->first('phone') }}
@@ -46,7 +46,7 @@
 
                 <div class="form-group">
                     <label>Subject</label>
-                    <input type="text" class="form-control {{ $errors->has('subject') ? 'error' : '' }}" name="subject" id="subject" placeholder="Subject....">
+                    <input type="text" class="form-control {{ $errors->has('subject') ? 'error' : '' }}" name="subject" id="subject" placeholder="Subject...." required>
                     @if ($errors->has('subject'))
                     <div class="error">
                         {{ $errors->first('subject') }}
@@ -56,7 +56,7 @@
 
                 <div class="form-group">
                     <label>Message</label>
-                    <textarea class="form-control {{ $errors->has('message') ? 'error' : '' }}" name="message" id="message" rows="4" placeholder="Envie su pregunta y le responderemos a la brevedad...."></textarea>
+                    <textarea class="form-control {{ $errors->has('message') ? 'error' : '' }}" name="message" id="message" rows="4" placeholder="Envie su pregunta y le responderemos a la brevedad...." required></textarea>
                     @if ($errors->has('message'))
                     <div class="error">
                         {{ $errors->first('message') }}
