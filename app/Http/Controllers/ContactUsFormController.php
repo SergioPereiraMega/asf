@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Contact;
+use Mail;
 
 
 class ContactUsFormController extends Controller
@@ -29,6 +30,18 @@ class ContactUsFormController extends Controller
 
         //  Store data in database
         Contact::create($request->all());
+
+        //  Send mail to admin
+        Mail::send('mail', array(
+            'name' => $request->get('name'),
+            'email' => $request->get('email'),
+            'phone' => $request->get('phone'),
+            'subject' => $request->get('subject'),
+            'user_query' => $request->get('message'),
+        ), function ($message) use ($request) {
+            $message->from($request->email);
+            $message->to('proagua2@gmail.com', 'Admin')->subject($request->get('subject'));
+        });
 
         //
         return back()->with('success', 'Gracias, hemos recibido su mensaje y nos comunicaremos a la brevedad.');

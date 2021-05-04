@@ -10116,6 +10116,7 @@ span {
 }
 
 /*
+elimino el style="mx-auto" para que no exeda el logo del cliente
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item.active {
@@ -10138,15 +10139,14 @@ span {
         rgba(38, 68, 143, 0.865983893557423) 100%
     );
     text-align: center;
-    margin-top: 100px;
     height: 250px;
-    padding-top: 25px;
+    padding-top: 15px;
     color: rgb(68, 62, 156);
     font-weight: 300;
 }
 
 .clients h2 {
-    font-size: xxx-large;
+    font-size: xl-large;
 }
 
 .carousel-item {
@@ -10210,7 +10210,7 @@ span {
 }
 @media (min-width: 576px) and (max-width: 768px) {
     .campos img {
-        height: 120px;
+        height: 80px;
         width: 100%;
         -o-object-fit: cover;
            object-fit: cover;
@@ -10366,14 +10366,14 @@ span {
 
 .carousel-control-prev {
     /* color: rgb(118, 163, 61); */
-    /* margin-bottom: 80%; */
+    margin-bottom: 125px;
     width: 3%;
     opacity: 0.8;
 }
 
 .carousel-control-next {
     /* color: rgb(118, 163, 61); */
-    /* margin-bottom: 80%; */
+    margin-bottom: 125px;
     width: 3%;
     opacity: 0.8;
 }
@@ -10405,11 +10405,14 @@ span {
 .about {
     color: rgb(68, 62, 156);
     margin-top: 160px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .contact {
     margin-top: 100px;
     padding-top: 30px;
+    margin-bottom: 30px;
 }
 
 @media (min-width: 1200px) {

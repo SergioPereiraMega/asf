@@ -23,7 +23,13 @@ Route::get('/nosotros', [App\Http\Controllers\PageController::class, 'nosotros']
 
 Route::get('/contacto', [App\Http\Controllers\ContactUsFormController::class, 'createForm']);
 
-Route::post('/contacto', [App\Http\Controllers\ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');;
+Route::post('/contacto', [App\Http\Controllers\ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');
+
+
+Route::get('/asfadmin', function () {
+    return view('welcome');
+});
+
 
 Auth::routes();
 
