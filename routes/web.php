@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,12 +26,18 @@ Route::get('/contacto', [App\Http\Controllers\ContactUsFormController::class, 'c
 
 Route::post('/contacto', [App\Http\Controllers\ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');
 
-
 Route::get('/asfadmin', function () {
     return view('welcome');
 });
 
+Route::get('/asfadmin/listado', [App\Http\Controllers\ContactUsFormController::class, 'ContactShow']);
 
-Auth::routes();
+Route::get('/inicio', function () {
+    return view('welcome');
+});
+
+// Auth::routes();
+
+Auth::routes(['register' => false]);
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

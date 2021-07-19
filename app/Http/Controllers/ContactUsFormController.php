@@ -46,4 +46,10 @@ class ContactUsFormController extends Controller
         //
         return back()->with('success', 'Gracias, hemos recibido su mensaje y nos comunicaremos a la brevedad.');
     }
+
+    public function ContactShow()
+    {
+        $contacts = Contact::orderBy('created_at', 'desc')->get();
+        return view('contact.index', compact('contacts'));
+    }
 }

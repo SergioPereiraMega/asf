@@ -1,19 +1,25 @@
-<div class="container-fluid">
-    <div class="row intro">
-        <div class="text">
-            <div class="col-sm-12 intro-title">
-                <h1>ASF Agronegocios San Francisco</h1>
-            </div>
-            <div class="col-sm-12 intro-description">
-                <p>
-                    Nos dedicamos a gestionar el negocio granelero en sus distintas etapas.
-                    Brindamos servicios de consultoría, gestión y asesoría a empresas y productores
-                    agropecuarios, optimizando la rentabilidad de nuestros clientes.
-                </p>
-            </div>
-        </div>
+<div class="container intro">
+    <div class="col-sm-12 col-md-10 mx-auto introLogo">
+        <img src="/img/logo_blanco.jpg" alt="logo ASF">
+    </div>
+
+    <div class="col-sm-12 col-md-10 mx-auto intro-description">
+        <p>
+            Nos dedicamos a gestionar el negocio granelero en sus distintas etapas.
+            Brindamos servicios de consultoría, gestión y asesoría a empresas y productores
+            agropecuarios, optimizando la rentabilidad de nuestros clientes.
+        </p>
     </div>
 </div>
+<div class="container-fluid">
+
+    <div class="row introImage">
+        <div class="col-sm-12"></div>
+    </div>
+
+</div>
+
+
 
 <!-- Que ofrecemos sections -->
 
@@ -25,7 +31,9 @@
         <div class="col-sm-8 ventajas-description">
             <p>En ASF trabajamos para
                 que las empresas comerciales capten nuevos y
-                mejores negocios a partir de su estructura comercial que ya poseen. Esto se logra gestionando (y creando si no lo hubiese) un departamento de negocios con granos, en las distintos procesos que abarca el mismo.</p>
+                mejores negocios a partir de su estructura comercial que ya poseen. Esto se logra gestionando (y creando
+                si no lo hubiese) un departamento de negocios con granos, en las distintos procesos que abarca el mismo.
+            </p>
             <p><strong>Esto significa:</strong></p>
             <ul>
                 <li>Aumentar las ventas de insumos utilizando grano como garantía de
