@@ -26,16 +26,21 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-4 ventajas-title">
-            <p>Que ofrecemos?</p>
+            <p>Quienes Somos?</p>
         </div>
         <div class="col-sm-8 ventajas-description">
-            <p>En ASF trabajamos para
-                que las empresas comerciales capten nuevos y
-                mejores negocios a partir de su estructura comercial que ya poseen. Esto se logra gestionando (y creando
-                si no lo hubiese) un departamento de negocios con granos, en las distintos procesos que abarca el mismo.
+            <p><strong>Agronegocios San Francisco</strong> nació en el año 2019, a partir de un grupo de profesionales
+                que formaban parte de las principales firmas graneleras del mercado y que llevan más de 20 años
+                gestionando la comercialización de granos y oleaginosas.
             </p>
-            <p><strong>Esto significa:</strong></p>
-            <ul>
+            <p>Nuestro compromiso tiene como propósito maximizar los beneficios y utilidades de nuestros clientes,
+                mediante la búsqueda de las mejores opciones y oportunidades del mercado, apoyando la gestión del
+                negocio en todas sus etapas y logrando asi una máxima eficiencia.
+                En la actualidad varias de las principales empresas comerciales y de producción agrícola ya están
+                confiando en <strong>ASF</strong> para el asesoramiento, la comercialización y la tercerización de su
+                sus procesos
+                operativos y administrativos, optimizando tiempos, recursos y maximizando resultados.</p>
+            <!-- <ul>
                 <li>Aumentar las ventas de insumos utilizando grano como garantía de
                     financiamiento.</li>
                 <li>Gestionar un departamento anexo a la operativa existente de la empresa.
@@ -50,7 +55,7 @@
                     honorarios. Participamos <span>únicamente</span> en un % de los ingresos netos que
                     logramos generarle a nuestros clientes bajo una modalidad “Ganar
                     Ganar”</li>
-            </ul>
+            </ul> -->
         </div>
     </div>
 </div>
@@ -75,7 +80,7 @@
 
 <!-- Ventajas sections -->
 
-<div class="container-fluid">
+<!-- <div class="container-fluid">
     <div class="row">
         <div class="col-sm-8 ventajas-description">
             <ul>
@@ -94,13 +99,13 @@
             <p> Cuales son las ventajas de financiar con entrega de grano ?</p>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Fin Ventajas sections -->
 
 <!-- Porque asociarse sections -->
 
-<div class="container-fluid">
+<!-- <div class="container-fluid">
     <div class="row">
         <div class="col-sm-4 ventajas-title">
             <p>Porque asociarse con ASF?</p>
@@ -125,6 +130,6 @@
             </ul>
         </div>
     </div>
-</div>
+</div> -->
 
 <!-- Fin Porque asociarse sections -->

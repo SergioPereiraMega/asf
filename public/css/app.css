@@ -10414,12 +10414,17 @@ elimino el style="mx-auto" para que no exeda el logo del cliente
     /* color: rgb(68, 62, 156); */
     margin-top: 50px;
 }
+
 .footer a {
     color: green;
 }
 
 .footer .flex-item {
     justify-content: space-around;
+}
+
+.footer-item {
+    padding: 20px;
 }
 
 .footer-item a {
