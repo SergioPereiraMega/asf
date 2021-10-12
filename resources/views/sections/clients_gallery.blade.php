@@ -1,7 +1,7 @@
 <!-- Gallery clientes -->
 
 <div class="container-fluid clients">
-    <h2>Nuestros Clientes</h2>
+    <!-- <h2>Nuestros Clientes</h2>
     <div id="carousel-example" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner row w-80 mx-auto" role="listbox">
             <div class="carousel-item rounded img-thumbnail col-12 col-sm-6 col-md-4 col-lg-3 active">
@@ -52,7 +52,7 @@
             <span class="carousel-control-next-icon" aria-hidden="false"></span>
             <span class="sr-only">Siguiente</span>
         </a>
-    </div>
+    </div> -->
 </div>
 
 
