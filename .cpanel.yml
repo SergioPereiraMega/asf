@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/agrosf/public_html/
+    - export DEPLOYPATH=/home2/agrosf/public_html/
     - /bin/rsync -av public/ $DEPLOYPATH
