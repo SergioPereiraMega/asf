@@ -27,8 +27,8 @@
                 <div class="row">
 
                     <div class="col-sm-12">
-                        <i class="fa fa-location-arrow" aria-hidden="true" style="padding-right: 15px"></i>Daniel Otero
-                        6591 - Montevideo
+                        <i class="fa fa-location-arrow" aria-hidden="true" style="padding-right: 15px"></i>Las Americas
+                        Business Center - Av de las Americas 8200 - 15000 Montevideo, Departamento de Canelones.
                     </div>
 
                     <div class="col-sm-12">
