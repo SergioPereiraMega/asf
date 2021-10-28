@@ -23,42 +23,21 @@
         <div class="col-sm-3">
             <div class="footer-item">
                 <h4>Donde encontrarnos</h4>
-
                 <div class="row">
-
                     <div class="col-sm-12">
                         <i class="fa fa-location-arrow" aria-hidden="true" style="padding-right: 15px"></i>Las Americas
                         Business Center - Av de las Americas 8200 - 15000 Montevideo, Departamento de Canelones.
                     </div>
-
                     <div class="col-sm-12">
                         <a class="fa fa-envelope-o" aria-hidden="true"></a><i>info@asfgranos.com.uy</i>
                     </div>
-
                     <div class="col-sm-12">
                         <a class="fa fa-phone" aria-hidden="true" href="tel:+59899758229"><i> +598 99758229</i></a>
                     </div>
-
-
                 </div>
-
-                <!-- <ul class="contact-info">
-                    <li>
-                        <i class="fa fa-address-book" aria-hidden="true"></i>Dirección: Daniel Otero 6591 - Montevideo
-                    </li>
-                    <li>
-                        <i class="fa fa-address-book" aria-hidden="true"></i>Dirección: Daniel Otero 6591 - Montevideo
-                    </li>
-                    <li>
-                        Teléfono:
-                        <a href="tel:+59899758229">
-                            +598 99758229
-                        </a>
-                    </li>
-                </ul> -->
-
             </div>
         </div>
+
         <div class="col-sm-3">
             <div class="footer-item">
                 <h4>Como llegar</h4>
