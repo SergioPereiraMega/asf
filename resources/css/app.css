@@ -38,27 +38,6 @@ body {
     font-weight: 300;
 }
 
-/* introduccion vieja */
-/* .intro {
-    color: green;
-}
-
-.intro .text {
-    min-height: 150px;
-    background-color: rgb(255, 255, 255, 0.5);
-    position: relative;
-    margin: 17% 15% 10% 15%;
-    border-radius: 30px;
-}
-.intro-title {
-    padding: 20px;
-    text-align: center;
-    font-weight: bolder;
-}
-.intro-title h1 {
-    font-weight: 900;
-} */
-/* Fin introduccion vieja */
 .introLogo {
     margin-top: 80px;
 }
@@ -71,11 +50,6 @@ body {
 .intro {
     min-height: 150px;
     background-color: #f7f7f7;
-
-    /* background-color: rgb(255, 255, 255, 0.5); */
-    /* position: relative; */
-    /* margin: 17% 15% 10% 15%; */
-    /* border-radius: 30px; */
 }
 
 .intro-description p {
@@ -84,16 +58,8 @@ body {
     text-align: justify;
 }
 
-/* .intro-description {
-    text-align: justify;
-    font-size: 30px;
-    font-size: 20px;
-    color: black;
-    font-weight: 300;
-} */
-
 .introImage {
-    background-image: url("/img/trigo-verde-campo.jpg");
+    background-image: url("/img/front-view-wheat-field-b.jpg");
     min-height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -124,6 +90,7 @@ body {
     font-weight: 400;
     color: rgb(68, 62, 156);
     padding: 5% 2% 2% 2%;
+    text-align: justify;
 }
 
 span {
@@ -433,6 +400,12 @@ elimino el style="mx-auto" para que no exeda el logo del cliente
     margin-top: 160px;
     padding-left: 20px;
     padding-right: 20px;
+}
+.about dt {
+    font-size: large;
+}
+.about dd {
+    font-size: large;
 }
 
 .contact {

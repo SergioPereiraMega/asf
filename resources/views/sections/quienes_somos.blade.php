@@ -4,7 +4,7 @@
 
             <dl>
                 <dt>Agronegocios San Francisco nacio en 2019,</dt>
-                <dd>por 2 personas que han trabajado durante varios años en empresas multinacionales en el area de grains and oilseeds desde el trading hasta la administracion general.</dd>
+                <dd>fue creada por 2 personas que han trabajado durante varios años en empresas multinacionales en el area de grains and oilseeds desde el trading hasta la administracion general.</dd>
 
                 <dt>La empresa tiene dos grandes areas: </dt>
                 <dd>Una es la compra, venta, importacion y exportacion de todo lo que sean granos, cereales y oleaginosas, buscando la maxima eficiencia y beneficio para las partes que intervienen en el negocio.</dd>
