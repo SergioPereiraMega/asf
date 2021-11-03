@@ -1,11 +1,5 @@
 require("./bootstrap");
 
-// function SayHi(name){
-//     alert( "Bienvenido  " + name)
-// };
-
-// SayHi('Carlitos');
-
 /*
     Carousel
 */
@@ -50,8 +44,8 @@ var map = new ol.Map({
         }),
     ],
     view: new ol.View({
-        center: ol.proj.fromLonLat([-56.052777, -34.888948]),
-        zoom: 16,
+        center: ol.proj.fromLonLat([-56.030002, -34.859396]),
+        zoom: 15,
     }),
 });
 
@@ -60,7 +54,7 @@ var layer = new ol.layer.Vector({
         features: [
             new ol.Feature({
                 geometry: new ol.geom.Point(
-                    ol.proj.fromLonLat([-56.052777, -34.888948])
+                    ol.proj.fromLonLat([-56.030002, -34.859396])
                 ),
             }),
         ],
@@ -90,17 +84,17 @@ closer.onclick = function () {
     return false;
 };
 
-// map.on("singleclick", function (event) {
-//     if (map.hasFeatureAtPixel(event.pixel) === true) {
-//         var coordinate = event.coordinate;
+map.on("singleclick", function (event) {
+    if (map.hasFeatureAtPixel(event.pixel) === true) {
+        var coordinate = event.coordinate;
 
-//         content.innerHTML = "<b>Agronegocios San Francisco</b><br/>";
-//         overlay.setPosition(coordinate);
-//     } else {
-//         overlay.setPosition(undefined);
-//         closer.blur();
-//     }
-// });
+        content.innerHTML = "<b>Agronegocios San Francisco</b><br/>";
+        overlay.setPosition(coordinate);
+    } else {
+        overlay.setPosition(undefined);
+        closer.blur();
+    }
+});
 
 content.innerHTML = "<b>Agronegocios San Francisco</b><br/>";
-overlay.setPosition(ol.proj.fromLonLat([-56.052777, -34.888948]));
+overlay.setPosition(ol.proj.fromLonLat([-56.030002, -34.859396]));
