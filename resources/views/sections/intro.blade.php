@@ -1,5 +1,5 @@
 <div class="container intro">
-    <div class="col-sm-12 col-md-10 mx-auto introLogo">
+    <div class="col-sm-12 introLogo">
         <img src="/img/logo_blanco.jpg" alt="logo ASF">
     </div>
 
