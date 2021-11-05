@@ -26,13 +26,15 @@
         </div>
         <div class="col-sm-8 ventajas-description">
             <p>Somos una empresa creada por profesionales con más de 20 años de experiencia dentro las principales
-                firmas de producción agrícola y la comercialización de granos. Maximizamos los beneficios mediante la
-                búsqueda de las mejores oportunidades del mercado, llevando a cabo la gestión en todas sus etapas.</p>
-            <p>Nuestros clientes optimizan tiempos, maximizan recursos y encuentran las mejores oportunidades de negocio
-                lo que se traduce en más eficiencia y mejores resultados.</p>
+                firmas de producción agrícola y la comercialización de granos y oleaginosas.
+                Maximizamos los beneficios de nuestros clientes mediante la búsqueda de las mejores oportunidades del
+                mercado, llevando a cabo la gestión en todas sus etapas.</p>
+            <p>Nuestra especialidad es crear valor optimizando tiempos, maximizando recursos y encontrando las mejores
+                oportunidades de negocio.</p>
             <p>Importantes firmas nacionales e internacionales confían en <strong>ASF</strong> para el asesoramiento, la
-                comercialización de la producción agropecuaria y el outsourcing de sus procesos administrativos y
-                comerciales del negocio granelero.</p>
+                comercialización
+                de la producción y el outsourcing de sus procesos administrativos y comerciales.
+            </p>
         </div>
     </div>
 </div>
