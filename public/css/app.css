@@ -10059,12 +10059,12 @@ body {
 .intro-description p {
     font-size: 30px;
     color: rgb(68, 62, 156);
-    text-align: justify;
+    text-align: center;
     font-family: Philosopher;
 }
 
 .introImage {
-    background-image: url("/img/front-view-wheat-field-b.jpg");
+    background-image: url("/img/front-view-wheat-field-c.jpg");
     min-height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -10095,7 +10095,7 @@ body {
     font-weight: 400;
     color: rgb(68, 62, 156);
     padding: 5% 5% 2% 5%;
-    text-align: justify;
+    text-align: center;
     font-family: "Philosopher", sans-serif;
 }
 
@@ -10112,22 +10112,6 @@ span {
     -o-object-fit: cover;
        object-fit: cover;
 }
-
-/*
-elimino el style="mx-auto" para que no exeda el logo del cliente
-.carousel-item-next,
-.carousel-item-prev,
-.carousel-item.active {
-    display: block !important;
-} */
-
-/* .carousel-item > img {
-    max-height: 200px;
-} */
-
-/* #carouselExampleIndicators {
-    color: rgb(118, 163, 61);
-} */
 
 .clients {
     background: rgb(118, 163, 61);
@@ -10410,6 +10394,7 @@ elimino el style="mx-auto" para que no exeda el logo del cliente
     margin-top: 160px;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 22px;
 }
 .about dt {
     font-size: large;
