@@ -26,17 +26,11 @@ Route::get('/contacto', [App\Http\Controllers\ContactUsFormController::class, 'c
 
 Route::post('/contacto', [App\Http\Controllers\ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');
 
-Route::get('/asfadmin', function () {
-    return view('welcome');
-});
 
 Route::get('/asfadmin/listado', [App\Http\Controllers\ContactUsFormController::class, 'ContactShow']);
 
-Route::get('/inicio', function () {
-    return view('welcome');
-});
 
-// Auth::routes();
+Auth::routes();
 
 Auth::routes(['register' => false]);
 

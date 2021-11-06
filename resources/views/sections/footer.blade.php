@@ -24,15 +24,25 @@
             <div class="footer-item">
                 <h4>Donde encontrarnos</h4>
                 <div class="row">
-                    <div class="col-sm-12">
-                        <i class="fa fa-location-arrow" aria-hidden="true" style="padding-right: 15px"></i>Las Americas
+                    <div class="col-sm-1">
+                        <i class="fa fa-location-arrow" aria-hidden="true" style="padding-right: 15px"></i>
+                    </div>
+                    <div class="col-sm-11">
+                        Las Americas
                         Business Center - Av de las Americas 8200 - 15000 Montevideo, Departamento de Canelones.
                     </div>
-                    <div class="col-sm-12">
-                        <a class="fa fa-envelope-o" aria-hidden="true"></a><i>info@asfgranos.com.uy</i>
+
+                    <div class="col-sm-1">
+                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
                     </div>
-                    <div class="col-sm-12">
-                        <a class="fa fa-phone" aria-hidden="true" href="tel:+59899758229"><i> +598 99758229</i></a>
+                    <div class="col-sm-11">
+                        <a href="mailto:jpamonte@asfgranos.com.uy"><i>jpamonte@asfgranos.com.uy</i></a>
+                    </div>
+                    <div class="col-sm-1">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                    </div>
+                    <div class="col-sm-11">
+                        <a href="tel:+59899758229"><i> +598 99758229</i></a>
                     </div>
                 </div>
             </div>

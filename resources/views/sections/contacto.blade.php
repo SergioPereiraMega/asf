@@ -77,19 +77,19 @@
                     <span class="fa-icon">
                         <i class="fa fa-phone" aria-hidden="true" href="tel:+59899758229"></i>
                     </span>
-                    +598 99758229
+                    <a href="tel:+59899758229"> +598 99758229</a>
                 </li>
                 <li>
                     <span class="fa-icon">
                         <i class="fa fa-envelope-o" aria-hidden="true"></i>
                     </span>
-                    info@asfgranos.com.uy
+                    <a href="mailto:jpamonte@asfgranos.com.uy">jpamonte@asfgranos.com.uy</a>
                 </li>
                 <li>
                     <span class="fa-icon">
                         <i class="fa fa fa-map-marker" aria-hidden="true"></i>
                     </span>
-                    Daniel Otero 6591 - Montevideo
+                    Las Americas Business Center - Av de las Americas 8200 - 15000 Montevideo, Departamento de Canelones
                 </li>
             </ul>
             <h3>Seguinos en redes</h3>
