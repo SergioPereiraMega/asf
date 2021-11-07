@@ -84,8 +84,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', 'info@agrosanfrancisco.com.uy'),
+        'name' => env('MAIL_FROM_NAME', 'Agronegocios San Francisco'),
     ],
 
     /*
@@ -103,7 +103,7 @@ return [
         'theme' => 'default',
 
         'paths' => [
-            resource_path('views/vendor/mail'),
+            resource_path('views/mail'),
         ],
     ],
 

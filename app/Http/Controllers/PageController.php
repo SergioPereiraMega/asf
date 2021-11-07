@@ -15,9 +15,4 @@ class PageController extends Controller
     {
         return view('home.about');
     }
-
-    // public function contacto()
-    // {
-    //     return view('home.contacto');
-    // }
 }

@@ -9,7 +9,7 @@
     }
 
     .tbl-content {
-        height: 400px;
+        height: 600px;
         overflow-x: auto;
         margin-top: 0px;
         border: 1px solid rgba(255, 255, 255, 0.3);
