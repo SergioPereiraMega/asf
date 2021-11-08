@@ -51,6 +51,7 @@
 
     section {
         margin: 50px;
+        padding-top: 10px;
     }
 
 
@@ -97,90 +98,10 @@
         -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
     }
 
-    /* .tg {
-        border-collapse: collapse;
-        border-spacing: 0;
-    }
 
-    .tg td {
-        border-color: black;
-        border-style: solid;
-        border-width: 1px;
-        font-family: Arial, sans-serif;
-        font-size: 14px;
-        overflow: hidden;
-        padding: 10px 5px;
-        word-break: normal;
-    }
 
-    .tg th {
-        border-color: black;
-        border-style: solid;
-        border-width: 1px;
-        font-family: Arial, sans-serif;
-        font-size: 14px;
-        font-weight: normal;
-        overflow: hidden;
-        padding: 10px 5px;
-        word-break: normal;
-    }
-
-    .tg .tg-0pky {
-        border-color: inherit;
-        text-align: left;
-        vertical-align: top
-    }
-
-    .tg .tg-0lax {
-        text-align: left;
-        vertical-align: top
-    }
-
-    @media screen and (max-width: 767px) {
-        .tg {
-            width: auto !important;
-        }
-
-        .tg col {
-            width: auto !important;
-        }
-
-        .tg-wrap {
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch;
-        }
-    } */
 </style>
-<!-- <div class="tg-wrap">
-    <table class="tg">
-        <thead>
-            <tr>
-                <th class="tg-0pky">Name</th>
-                <th class="tg-0pky">Email</th>
-                <th class="tg-0pky">Phone</th>
-                <th class="tg-0pky">Subject</th>
-                <th class="tg-0lax">Text</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                @foreach ($contacts as $contact)
-            <tr>
-
-                <td class="tg-0pky">{{ $contact->name }}</td>
-                <td class="tg-0pky">{{ $contact->email }}</td>
-                <td class="tg-0pky">{{ $contact->phone }}</td>
-                <td class="tg-0pky">{{ $contact->subject }}</td>
-                <td class="tg-0lax">{{ $contact->message }}</td>
-            </tr>
-
-            @endforeach
-
-        </tbody>
-    </table>
-</div> -->
-
-
+    @extends('layouts.mastercontact')
 <section>
     <!--for demo wrap-->
     <h1>Listado de mails enviados desde la pagina</h1>

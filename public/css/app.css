@@ -10010,7 +10010,8 @@ body {
     background-color: #f7f7f7;
     color: white;
     padding-bottom: 70px;
-    font-family: "Philosopher", sans-serif;
+    /* font-family: "Philosopher", sans-serif; */
+    font-family: "Nunito", sans-serif;
 }
 
 .navbar-light .navbar-brand {
@@ -10050,7 +10051,8 @@ body {
 .introLogo img {
     height: 165px;
     display: block;
-    margin: 17px auto 1px;
+    margin: 26px auto 6px;
+    padding: 16px;
 }
 
 .intro {
@@ -10092,8 +10094,7 @@ body {
 }
 
 .ventajas-description {
-    text-align: left;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
     color: rgb(68, 62, 156);
     padding: 5% 5% 2% 5%;
@@ -10397,12 +10398,8 @@ span {
     padding-left: 20px;
     padding-right: 20px;
     font-size: 22px;
-}
-.about dt {
-    font-size: large;
-}
-.about dd {
-    font-size: large;
+    font-family: "Philosopher", sans-serif;
+    font-size: 23px;
 }
 
 .contact {

@@ -1,6 +1,6 @@
 <div class="container intro">
     <div class="col-sm-12 introLogo">
-        <img src="/img/logo_blanco.jpg" alt="logo ASF">
+        <img src="/img/logo_blanco_transparent.png" alt="logo ASF">
     </div>
 
     <div class="col-sm-12 col-md-10 mx-auto intro-description">
@@ -32,8 +32,7 @@
             <p>Nuestra especialidad es crear valor optimizando tiempos, maximizando recursos y encontrando las mejores
                 oportunidades de negocio.</p>
             <p>Importantes firmas nacionales e internacionales confían en <strong>ASF</strong> para el asesoramiento, la
-                comercialización
-                de la producción y el outsourcing de sus procesos administrativos y comerciales.
+                comercialización de la producción y el outsourcing de sus procesos administrativos y comerciales.
             </p>
         </div>
     </div>
