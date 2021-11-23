@@ -79,7 +79,7 @@ var overlay = new ol.Overlay({
 map.addOverlay(overlay);
 
 closer.onclick = function () {
-    overlay.setPosition(undefined);
+    overlay.setPosition([-56.030002, -34.859396]);
     closer.blur();
     return false;
 };

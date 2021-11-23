@@ -52,4 +52,9 @@ class ContactUsFormController extends Controller
         $contacts = Contact::orderBy('created_at', 'desc')->get();
         return view('contact.index', compact('contacts'));
     }
+
+    public function ContactDelete($id) {
+        Contact::where('id', $id)->delete();
+        return redirect()->route('contact.list')->with('message', 'El mensaje ha sido eliminado correctamente!');;
+    }
 }

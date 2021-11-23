@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,10 +15,6 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 Route::get('/', [App\Http\Controllers\PageController::class, 'index']);
 
 Route::get('/nosotros', [App\Http\Controllers\PageController::class, 'nosotros']);
@@ -26,12 +23,11 @@ Route::get('/contacto', [App\Http\Controllers\ContactUsFormController::class, 'c
 
 Route::post('/contacto', [App\Http\Controllers\ContactUsFormController::class, 'ContactUsForm'])->name('contact.store');
 
+Route::get('/asfadmin/listado', [App\Http\Controllers\ContactUsFormController::class, 'ContactShow'])->middleware('auth')->name('contact.list');
 
-Route::get('/asfadmin/listado', [App\Http\Controllers\ContactUsFormController::class, 'ContactShow']);
+Route::delete('/asfadmin/listado/delete/{id}', [App\Http\Controllers\ContactUsFormController::class, 'ContactDelete'])->middleware('auth')->name('contact.delete');
 
-
-Auth::routes();
+Route::post('/asfadmin/listado/logout', [App\Http\Controllers\UserController::class, 'logout']);
 
 Auth::routes(['register' => false]);
 
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

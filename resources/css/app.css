@@ -428,3 +428,7 @@ span {
 .card .form-group {
     margin-bottom: 1rem;
 }
+
+.list {
+    text-align: center;
+}

@@ -97,12 +97,26 @@
     ::-webkit-scrollbar-thumb {
         -webkit-box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
     }
-
-
-
 </style>
-    @extends('layouts.mastercontact')
+
+@extends('layouts.mastercontact')
+
+
 <section>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <div class="col-md-12 text-center">
+                    <form method="POST" action="/asfadmin/listado/logout">
+                        @method('post')
+                        @csrf
+                        <button class="btn btn-primary">Logout</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--for demo wrap-->
     <h1>Listado de mails enviados desde la pagina</h1>
     <div class="tbl-header">
@@ -115,6 +129,7 @@
                     <th>Phone</th>
                     <th>Subject</th>
                     <th>Text</th>
+                    <th>Eliminar</th>
                 </tr>
             </thead>
         </table>
@@ -130,9 +145,21 @@
                     <td>{{ $contact->phone }}</td>
                     <td>{{ $contact->subject }}</td>
                     <td>{{ $contact->message }}</td>
+                    <td>
+                        <form action="{{ route('contact.delete', $contact->id) }}" type="submit" method='post'>
+                            @method('delete')
+                            @csrf
+                            <button type="hidden" class="btn btn-danger btn-sm">Eliminar</button>
+                        </form>
+                    </td>
                 </tr>
                 @endforeach
             </tbody>
         </table>
     </div>
+    @if(session()->has('message'))
+    <div class="alert alert-success list">
+        {{ session()->get('message') }}
+    </div>
+    @endif
 </section>
