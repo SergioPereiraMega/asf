@@ -432,3 +432,7 @@ span {
 .list {
     text-align: center;
 }
+
+section {
+    padding-top: 20px;
+}

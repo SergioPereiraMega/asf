@@ -104,21 +104,21 @@
 
 <section>
     <div class="container">
-        <div class="card">
-            <div class="card-body">
-                <div class="col-md-12 text-center">
-                    <form method="POST" action="/asfadmin/listado/logout">
-                        @method('post')
-                        @csrf
-                        <button class="btn btn-primary">Logout</button>
-                    </form>
-                </div>
+        <div class="row">
+            <div class="col-sm-10">
+                <h1>Listado de mails enviados desde la pagina</h1>
+            </div>
+            <div class="col-sm-2">
+                <form method="POST" action="/asfadmin/listado/logout">
+                    @method('post')
+                    @csrf
+                    <button class="btn btn-primary">Logout</button>
+                </form>
             </div>
         </div>
     </div>
 
     <!--for demo wrap-->
-    <h1>Listado de mails enviados desde la pagina</h1>
     <div class="tbl-header">
         <table cellpadding="0" cellspacing="0" border="0">
             <thead>
